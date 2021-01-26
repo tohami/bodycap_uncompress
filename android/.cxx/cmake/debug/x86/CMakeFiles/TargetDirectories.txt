@@ -1,0 +1,3 @@
+C:/work/Self/BodyCap/bodycap_uncompress/android/.cxx/cmake/debug/x86/CMakeFiles/Uncompress.dir
+C:/work/Self/BodyCap/bodycap_uncompress/android/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+C:/work/Self/BodyCap/bodycap_uncompress/android/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

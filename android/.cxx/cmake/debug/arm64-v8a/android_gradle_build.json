@@ -1,0 +1,69 @@
+{
+  "stringTable": {
+    "0": "C:/work/Self/BodyCap/bodycap_uncompress/android/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=C:/work/android_studio/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/work/android_studio/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DUncompress_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\CMakeLists.txt",
+    "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "Uncompress-Debug-arm64-v8a": {
+      "buildCommand": "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\arm64-v8a\" Uncompress",
+      "buildType": "debug",
+      "toolchain": "3939851690",
+      "abi": "arm64-v8a",
+      "artifactName": "Uncompress",
+      "files": [
+        {
+          "src": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\ios\\Classes\\lib_uncompress.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\ios\\Classes\\lib_bitStream.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\ios\\Classes\\lib_uncompress.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\ios\\Classes\\lib_bitStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\ios\\Classes\\lib_compress_defines.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\ios\\Classes\\nrf_log.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\ios\\Classes\\project.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\example\\build\\bodycap_uncompress\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libUncompress.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3939851690": {
+      "cCompilerExecutable": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

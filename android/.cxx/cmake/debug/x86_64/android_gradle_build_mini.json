@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\CMakeLists.txt",
+    "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "Uncompress-Debug-x86_64": {
+      "artifactName": "Uncompress",
+      "buildCommand": "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64\" Uncompress",
+      "abi": "x86_64",
+      "output": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\example\\build\\bodycap_uncompress\\intermediates\\cmake\\debug\\obj\\x86_64\\libUncompress.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# ninja log v5
+0	328	633393470	CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_bitStream.c.o	3c35e000da58e746
+3	332	633393470	CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c.o	80c835a81bbfd53d
+332	435	633393470	C:/work/Self/BodyCap/bodycap_uncompress/example/build/bodycap_uncompress/intermediates/cmake/debug/obj/armeabi-v7a/libUncompress.so	ec7cc447e55e8604
