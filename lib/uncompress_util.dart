@@ -14,7 +14,7 @@ class UncompressUtil {
 
   static List<UncompressedRecord> uncompress (List<int> values ) {
     var pointer = intListToArray(values) ;
-    var uncompressedPointer = ffi.allocate<record_t>(count: 200000) ;
+    var uncompressedPointer = ffi.allocate<record_t>(count: 50000) ;
     var count = uncompressBinding.uncompress_data(pointer,values.length , uncompressedPointer);
     print("uncompressed data count is $count");
     ffi.free(pointer) ;
