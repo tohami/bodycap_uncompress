@@ -306,7 +306,7 @@ uint16_t uncompress_data(uint8_t *buffer,uint16_t size,record_t *records){
 
     samples_t data;
 
-    int ret = lib_uncompress_data(buffer, 24, &data);
+    int ret = lib_uncompress_data(buffer, size, &data);
     if (ret != 0) {
         ALOG("%u uncompressed samples", data.nbSamples);
         for(uint32_t i=0;i<data.nbSamples;i++) {

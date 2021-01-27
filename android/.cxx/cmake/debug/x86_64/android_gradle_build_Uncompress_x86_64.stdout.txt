@@ -1,6 +1,5 @@
 ninja: Entering directory `C:\work\Self\BodyCap\bodycap_uncompress\android\.cxx\cmake\debug\x86_64'
-[1/3] Building C object CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_bitStream.c.o
-[2/3] Building C object CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c.o
+[1/2] Building C object CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c.o
 C:/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c:219:58: warning: implicit conversion from 'int' to 'int16_t' (aka 'short') changes value from 65535 to -1 [-Wconstant-conversion]
         p_samples->samples[p_samples->nbSamples].tempe = UINT16_MAX;
                                                        ~ ^~~~~~~~~~
@@ -14,4 +13,4 @@ C:/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c:36:66: note
 #define  ALOG(...)  __android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)
                                                                  ^~~~~~~~~~~
 2 warnings generated.
-[3/3] Linking C shared library C:\work\Self\BodyCap\bodycap_uncompress\example\build\bodycap_uncompress\intermediates\cmake\debug\obj\x86_64\libUncompress.so
+[2/2] Linking C shared library C:\work\Self\BodyCap\bodycap_uncompress\example\build\bodycap_uncompress\intermediates\cmake\debug\obj\x86_64\libUncompress.so
