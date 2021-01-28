@@ -33,7 +33,8 @@
 #include <android/log.h>
 
 #define  LOG_TAG    "testjni"
-#define  ALOG(...)  __android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)
+//uncomment this line to enable logging
+#define  ALOG(...)  /*__android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)*/
 
 NRF_LOG_MODULE_REGISTER();
 
@@ -340,7 +341,7 @@ uint8_t lib_uncompress_data(uint8_t *buffer, uint8_t len, samples_t *p_samples)
     lastValidTime = UINT32_MAX;
     currentPeriod = UINT16_MAX;
     nbPeriodToAdd = 0;
-  ALOG("This message comes from uncompress at line %d.", __LINE__);
+    ALOG("This message comes from uncompress at line %d.", __LINE__);
 
     // First step is to know where the start bit is
     //offsetBit = 0;

@@ -20,7 +20,6 @@ class UncompressUtil {
     ffi.free(pointer) ;
     var results = List.generate(count, (index) {
        var record = uncompressedPointer.elementAt(index).ref ;
-       print( "${record.tempe} / ${record.time}") ;
        return UncompressedRecord(record.tempe, record.time);
     });
     ffi.free(uncompressedPointer) ;
