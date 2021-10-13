@@ -1,7 +1,7 @@
-Executable : C:\work\android_studio\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+Executable : C:\Users\toham\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-C:\work\Self\BodyCap\bodycap_uncompress\android\.cxx\cmake\debug\x86_64
+C:\Users\toham\AndroidStudioProjects\bodycap_uncompress\android\.cxx\cmake\debug\x86_64
 Uncompress
 jvmArgs : 
 

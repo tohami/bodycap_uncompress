@@ -1,16 +1,11 @@
-ninja: Entering directory `C:\work\Self\BodyCap\bodycap_uncompress\android\.cxx\cmake\debug\armeabi-v7a'
-[1/2] Building C object CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c.o
-C:/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c:219:58: warning: implicit conversion from 'int' to 'int16_t' (aka 'short') changes value from 65535 to -1 [-Wconstant-conversion]
+ninja: Entering directory `C:\Users\toham\AndroidStudioProjects\bodycap_uncompress\android\.cxx\cmake\debug\armeabi-v7a'
+[1/3] Building C object CMakeFiles/Uncompress.dir/C_/Users/toham/AndroidStudioProjects/bodycap_uncompress/ios/Classes/lib_bitStream.c.o
+[2/3] Building C object CMakeFiles/Uncompress.dir/C_/Users/toham/AndroidStudioProjects/bodycap_uncompress/ios/Classes/lib_uncompress.c.o
+C:/Users/toham/AndroidStudioProjects/bodycap_uncompress/ios/Classes/lib_uncompress.c:220:58: warning: implicit conversion from 'int' to 'int16_t' (aka 'short') changes value from 65535 to -1 [-Wconstant-conversion]
         p_samples->samples[p_samples->nbSamples].tempe = UINT16_MAX;
                                                        ~ ^~~~~~~~~~
-C:/work/android_studio/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\stdint.h:172:27: note: expanded from macro 'UINT16_MAX'
+C:/Users/toham/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\stdint.h:172:27: note: expanded from macro 'UINT16_MAX'
 #define UINT16_MAX       (65535)
                           ^~~~~
-C:/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c:356:56: warning: format specifies type 'int' but the argument has type 'samples_t *' [-Wformat]
-    ALOG("This message comes from memset at line %d.", p_samples);
-                                                 ~~    ^~~~~~~~~
-C:/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c:36:66: note: expanded from macro 'ALOG'
-#define  ALOG(...)  __android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)
-                                                                 ^~~~~~~~~~~
-2 warnings generated.
-[2/2] Linking C shared library C:\work\Self\BodyCap\bodycap_uncompress\example\build\bodycap_uncompress\intermediates\cmake\debug\obj\armeabi-v7a\libUncompress.so
+1 warning generated.
+[3/3] Linking C shared library C:\Users\toham\AndroidStudioProjects\bodycap\build\bodycap_uncompress\intermediates\cmake\debug\obj\armeabi-v7a\libUncompress.so

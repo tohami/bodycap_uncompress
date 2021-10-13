@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64",
-    "cmakeServerLogFile": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cxx\\debug\\x86_64",
+    "cmakeArtifactsBaseFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64",
+    "cmakeServerLogFile": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cxx\\debug\\x86_64",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64",
-      "cmakeToolchain": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-      "cmakeExecutable": "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "buildRoot": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64",
+      "cmakeToolchain": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\prefab\\x86_64\\prefab"
+          "value": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\prefab\\x86_64\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -29,7 +29,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake"
+          "value": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -37,7 +37,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462"
+          "value": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -49,7 +49,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462"
+          "value": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -57,11 +57,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\example\\build\\bodycap_uncompress\\intermediates\\cmake\\debug\\obj\\x86_64"
+          "value": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap\\build\\bodycap_uncompress\\intermediates\\cmake\\debug\\obj\\x86_64"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+          "value": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -74,14 +74,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64",
+  "cxxBuildFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64",
   "info": {
     "abi": "X86_64",
     "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64",
+  "originalCxxBuildFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\x86_64",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -93,24 +93,24 @@
     "module": {
       "buildSystem": "CMAKE",
       "cmake": {
-        "cmakeExe": "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "cmakeExe": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "C:\\work\\android_studio\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        "ninjaExe": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
-      "cmakeToolchainFile": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx",
+      "cmakeToolchainFile": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx",
       "gradleModulePathName": ":bodycap_uncompress",
-      "intermediatesFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\example\\build\\bodycap_uncompress\\intermediates",
-      "makeFile": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\CMakeLists.txt",
-      "moduleBuildFile": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\build.gradle",
-      "moduleRootFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android",
+      "intermediatesFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap\\build\\bodycap_uncompress\\intermediates",
+      "makeFile": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\CMakeLists.txt",
+      "moduleBuildFile": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\build.gradle",
+      "moduleRootFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462",
+      "ndkFolder": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI_V7A",
@@ -167,29 +167,29 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\example\\android\\.cxx",
-        "cxxFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\example\\android\\.cxx",
+        "compilerSettingsCacheFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap\\android\\.cxx",
+        "cxxFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap\\android\\.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\example\\android",
-        "sdkFolder": "C:\\work\\android_studio\\Sdk",
+        "rootBuildGradleFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap\\android",
+        "sdkFolder": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk",
         "isPrefabEnabled": false
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
-          "ARM64_V8A": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
-          "X86": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-          "X86_64": "C:\\work\\android_studio\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+          "ARMEABI_V7A": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\toham\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       }
     },
-    "objFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\example\\build\\bodycap_uncompress\\intermediates\\cmake\\debug\\obj",
+    "objFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap\\build\\bodycap_uncompress\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -197,8 +197,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\prefab",
+    "prefabDirectory": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "C:\\work\\Self\\BodyCap\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\prefab\\x86_64"
+  "prefabFolder": "C:\\Users\\toham\\AndroidStudioProjects\\bodycap_uncompress\\android\\.cxx\\cmake\\debug\\prefab\\x86_64"
 }

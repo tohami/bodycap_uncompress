@@ -1,6 +1,4 @@
 # ninja log v5
-0	328	633393470	CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_bitStream.c.o	3c35e000da58e746
-3	332	633393470	CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c.o	80c835a81bbfd53d
-332	435	633393470	C:/work/Self/BodyCap/bodycap_uncompress/example/build/bodycap_uncompress/intermediates/cmake/debug/obj/armeabi-v7a/libUncompress.so	ec7cc447e55e8604
-3	843	633482457	CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c.o	80c835a81bbfd53d
-844	1092	633482458	C:/work/Self/BodyCap/bodycap_uncompress/example/build/bodycap_uncompress/intermediates/cmake/debug/obj/armeabi-v7a/libUncompress.so	ec7cc447e55e8604
+2	123	655788727	CMakeFiles/Uncompress.dir/C_/Users/toham/AndroidStudioProjects/bodycap_uncompress/ios/Classes/lib_bitStream.c.o	ab0793a722db5091
+0	129	655788727	CMakeFiles/Uncompress.dir/C_/Users/toham/AndroidStudioProjects/bodycap_uncompress/ios/Classes/lib_uncompress.c.o	a3c999d522e0568d
+129	181	655788728	C:/Users/toham/AndroidStudioProjects/bodycap/build/bodycap_uncompress/intermediates/cmake/debug/obj/armeabi-v7a/libUncompress.so	2b9e0dd9a9fa1db5

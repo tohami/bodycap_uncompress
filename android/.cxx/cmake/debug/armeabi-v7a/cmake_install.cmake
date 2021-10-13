@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/Self/BodyCap/bodycap_uncompress/android
+# Install script for directory: C:/Users/toham/AndroidStudioProjects/bodycap_uncompress/android
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/work/Self/BodyCap/bodycap_uncompress/android/.cxx/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/toham/AndroidStudioProjects/bodycap_uncompress/android/.cxx/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

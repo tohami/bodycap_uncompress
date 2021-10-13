@@ -220,7 +220,10 @@ class record_t extends ffi.Struct {
   external int tempe;
 }
 
-class samples_t extends ffi.Struct {}
+class samples_t extends ffi.Struct {
+  @ffi.Int32()
+  external int nbSamples;
+}
 
 class def_bitStream_t extends ffi.Struct {
   @ffi.Uint16()

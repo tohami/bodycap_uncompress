@@ -1,6 +1,4 @@
 # ninja log v5
-3	127	633393471	CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_bitStream.c.o	f7ca5dbccd9d2b2b
-1	137	633393471	CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c.o	a237ef59776054e5
-137	231	633393471	C:/work/Self/BodyCap/bodycap_uncompress/example/build/bodycap_uncompress/intermediates/cmake/debug/obj/x86_64/libUncompress.so	6571c95aafa82032
-1	138	633482459	CMakeFiles/Uncompress.dir/C_/work/Self/BodyCap/bodycap_uncompress/ios/Classes/lib_uncompress.c.o	a237ef59776054e5
-138	362	633482459	C:/work/Self/BodyCap/bodycap_uncompress/example/build/bodycap_uncompress/intermediates/cmake/debug/obj/x86_64/libUncompress.so	6571c95aafa82032
+2	71	655788728	CMakeFiles/Uncompress.dir/C_/Users/toham/AndroidStudioProjects/bodycap_uncompress/ios/Classes/lib_bitStream.c.o	9d4a7b58937d40d5
+0	83	655788728	CMakeFiles/Uncompress.dir/C_/Users/toham/AndroidStudioProjects/bodycap_uncompress/ios/Classes/lib_uncompress.c.o	507a0293b85a0698
+83	128	655788728	C:/Users/toham/AndroidStudioProjects/bodycap/build/bodycap_uncompress/intermediates/cmake/debug/obj/x86_64/libUncompress.so	96f59a2df755c596
