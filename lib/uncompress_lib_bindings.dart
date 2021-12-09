@@ -47,8 +47,10 @@ class UncompressBinding {
 
   _dart_uncompress_data? _uncompress_data;
 
+  // uint8_t lib_uncompress_data(uint8_t *buffer, uint8_t len, samples_t *p_samples);
+
   int lib_uncompress_data(
-      ffi.Pointer<ffi.Int32> buffer,
+      ffi.Pointer<ffi.Uint8> buffer,
       int len,
       ffi.Pointer<samples_t> p_samples,
       ) {
@@ -213,16 +215,19 @@ class UncompressBinding {
 }
 
 class record_t extends ffi.Struct {
-  @ffi.Int32()
+  @ffi.Uint32()
   external int time;
 
-  @ffi.Int32()
+  @ffi.Int16()
   external int tempe;
 }
 
 class samples_t extends ffi.Struct {
-  @ffi.Int32()
+  @ffi.Uint32()
   external int nbSamples;
+
+  @ffi.Array.multi([50000])
+  external ffi.Array<record_t> samples;
 }
 
 class def_bitStream_t extends ffi.Struct {
@@ -450,13 +455,13 @@ typedef _dart_uncompress_data = int Function(
     );
 
 typedef _c_lib_uncompress_data = ffi.Int32 Function(
-    ffi.Pointer<ffi.Int32> buffer,
+    ffi.Pointer<ffi.Uint8> buffer,
     ffi.Int32 len,
     ffi.Pointer<samples_t> p_samples,
     );
 
 typedef _dart_lib_uncompress_data = int Function(
-    ffi.Pointer<ffi.Int32> buffer,
+    ffi.Pointer<ffi.Uint8> buffer,
     int len,
     ffi.Pointer<samples_t> p_samples,
     );

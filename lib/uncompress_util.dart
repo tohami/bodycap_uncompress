@@ -13,21 +13,23 @@ final uncompressBinding = UncompressBinding(
 class UncompressUtil {
 
   static List<UncompressedRecord> uncompress (List<int> values ) {
-    var pointer = intListToArray(values) ;
-    var uncompressedPointer = ffi.calloc.allocate<record_t>(50000) ;
-    var count = uncompressBinding.uncompress_data(pointer,values.length , uncompressedPointer);
-    print("uncompressed data count is $count");
-    ffi.calloc.free(pointer) ;
-    var results = List.generate(count, (index) {
-       var record = uncompressedPointer.elementAt(index).ref ;
-       return UncompressedRecord(record.tempe, record.time);
-    });
-    ffi.calloc.free(uncompressedPointer) ;
-    return results ;
+      return ffi.using((arena) {
+        var uncompressedPointer = arena.allocate<samples_t>(50000);
+        var pointer = intListToArray(values, arena);
+        var ret = uncompressBinding.lib_uncompress_data(
+            pointer, values.length, uncompressedPointer);
+        samples_t samples = uncompressedPointer.elementAt(0).ref;
+        var results = List.generate(samples.nbSamples, (index) {
+          var record = samples.samples[index];
+          return UncompressedRecord(record.tempe, record.time);
+        });
+        arena.releaseAll();
+        return results;
+      });
   }
 
-  static Pointer<Uint8> intListToArray(List<int> list) {
-    final ptr = ffi.calloc.allocate<Uint8>(list.length);
+  static Pointer<Uint8> intListToArray(List<int> list , ffi.Arena arena) {
+    final ptr = arena.allocate<Uint8>(list.length);
     for (var i = 0; i < list.length; i++) {
       ptr.elementAt(i).value = list[i];
     }

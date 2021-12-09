@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tohami.bodycap_uncompress_example">
+    <uses-permission android:name="Manifest.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="Manifest.permission.WRITE_EXTERNAL_STORAGE"/>
    <application
         android:label="bodycap_uncompress_example"
         android:icon="@mipmap/ic_launcher">
