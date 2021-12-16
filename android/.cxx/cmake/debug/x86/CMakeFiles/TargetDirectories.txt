@@ -1,3 +1,0 @@
-C:/Users/toham/AndroidStudioProjects/bodycap_uncompress/android/.cxx/cmake/debug/x86/CMakeFiles/Uncompress.dir
-C:/Users/toham/AndroidStudioProjects/bodycap_uncompress/android/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
-C:/Users/toham/AndroidStudioProjects/bodycap_uncompress/android/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
