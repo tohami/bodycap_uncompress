@@ -14,7 +14,7 @@ class UncompressUtil {
 
   static List<UncompressedRecord> uncompress (List<int> values ) {
       return ffi.using((arena) {
-        var uncompressedPointer = arena.allocate<samples_t>(50000);
+        var uncompressedPointer = arena.allocate<samples_t>(500000);
         var pointer = intListToArray(values, arena);
         var ret = uncompressBinding.lib_uncompress_data(
             pointer, values.length, uncompressedPointer);
@@ -25,7 +25,7 @@ class UncompressUtil {
         });
         arena.releaseAll();
         return results;
-      });
+      } , ffi.malloc);
   }
 
   static Pointer<Uint8> intListToArray(List<int> list , ffi.Arena arena) {
