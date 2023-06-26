@@ -2,13 +2,14 @@
 
 import 'dart:ffi'; // For FFI
 // For Platform.isX
-
+import 'dart:io';
 import 'uncompress_lib_bindings.dart';
 import 'package:ffi/ffi.dart' as ffi;
 
 
 final uncompressBinding = UncompressBinding(
-    DynamicLibrary.open("libUncompress.so"));
+    Platform.isAndroid ? DynamicLibrary.open("libUncompress.so") :DynamicLibrary.process()
+);
 
 class UncompressUtil {
 

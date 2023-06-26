@@ -30,7 +30,6 @@
 #define NRF_LOG_LEVEL 3         // set to 4 to display DEBUG LOGs
 #define NRF_LOG_MODULE_NAME uncompress
 #include "nrf_log.h"
-#include <android/log.h>
 
 #define  LOG_TAG    "testjni"
 //uncomment this line to enable logging
